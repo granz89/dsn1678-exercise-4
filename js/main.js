@@ -5,6 +5,9 @@ var $dipperSection = $('.dipper-section');
 var $dipper = $('.dipper');
 var $shuttleSection = $('.shuttle-section');
 var $shuttle = $('.shuttle');
+var $shipsSection = $('.ships-section');
+var $ships = $('.ships');
+
 
 
 $win.on('scroll', function () {
@@ -24,3 +27,8 @@ $dipperSection.waypoint(function () {
 $shuttleSection.waypoint(function () {
 	$shuttle.addClass('js-shuttle-fade');
 }, { offset: '50%' });
+
+$shipsSection.waypoint(function () {
+	$ships.addClass('js-shuttle-fade');
+}, { offset: '50%' });
+
